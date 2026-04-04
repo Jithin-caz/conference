@@ -10,14 +10,13 @@ export default function RegistrationPage() {
       
       <div className="glass-panel p-8 md:p-12 rounded-3xl space-y-8 max-w-2xl mx-auto text-center">
         
-        <div className="bg-red-500/10 border border-red-500/20 text-red-400 p-4 rounded-xl mb-8">
-          <p className="font-semibold">Notice: Payment for NCE3 2026 is now closed (as of 06/03/2026).</p>
+        <div className="bg-blue-500/10 border border-blue-500/20 text-blue-500 p-4 rounded-xl mb-8">
+          <p className="font-semibold">Notice: Registration fees and details will be announced soon.</p>
         </div>
 
         <h2 className="text-2xl font-bold text-foreground mb-4">Participant Registration</h2>
         <p className="text-foreground-muted">
-          Although formal payment processing has closed, late registrations for attendance-only 
-          may still be permitted on site subject to availability.
+          Registration for MACE RISE '26 will open shortly. Please check back later for fee details and to access the registration form.
         </p>
 
         <form className="mt-8 space-y-6 text-left" onSubmit={(e) => e.preventDefault()}>
@@ -41,7 +40,7 @@ export default function RegistrationPage() {
           </div>
           
           <button type="submit" disabled className="w-full py-4 rounded-xl font-bold bg-surface-light text-foreground-muted cursor-not-allowed border border-[rgba(0,0,0,0.05)] shadow-none">
-            Registration Closed
+            Registration Coming Soon
           </button>
         </form>
       </div>

@@ -19,6 +19,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Keynote Speaker Section */}
+      <InfoSection 
+        title="Keynote Speaker"
+        imageOnRight={true}
+        content={
+          <>
+            <h3 className="text-2xl font-bold text-foreground mb-1">Dr. Madhavi Latha Gali</h3>
+            <p className="text-primary font-medium mb-4 text-lg">Professor, Indian Institute of Science Bangalore</p>
+            <p>
+              We are honored to welcome Dr. Madhavi Latha Gali as our keynote speaker for MACE RISE '26. She is a renowned Professor at the Indian Institute of Science Bangalore, contributing significantly to the fields of Geotechnical and Civil Engineering.
+            </p>
+          </>
+        }
+      />
+
       {/* About Sections */}
       <InfoSection 
         title="About the Institution"
