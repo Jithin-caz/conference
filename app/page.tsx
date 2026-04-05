@@ -47,6 +47,7 @@ export default function Home() {
 
       <InfoSection 
         title="About the Department"
+        imageUrl="/mace.jpg"
         imageOnRight={false}
         content={
           <>
