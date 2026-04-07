@@ -16,7 +16,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "MACE RISE '26 | Conference on Resilient Infrastructure & Sustainable Engineering",
-  description: "Shaping Resilient & Sustainable Infrastructure for Tomorrow. Organized by Mar Athanasius College of Engineering.",
+  description: "Shaping Resilient & Sustainable Infrastructure for Tomorrow. Organized by the Department of Civil Engineering, Mar Athanasius College of Engineering.",
 };
 
 export default function RootLayout({

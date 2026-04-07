@@ -9,12 +9,12 @@ export default function Footer() {
           
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <Image src="/clglogo.png" alt="MACE Logo" width={48} height={48} className="object-contain drop-shadow-sm" />
+              <Image src="/conf_logo.png" alt="MACE RISE Logo" width={48} height={48} className="object-contain drop-shadow-sm" />
               <h3 className="text-xl font-heading font-bold text-foreground">MACE RISE '26</h3>
             </div>
             <p className="text-foreground-muted text-sm leading-relaxed max-w-md">
               International Conference on Resilient Infrastructure and Sustainable Engineering. 
-              Organized by Mar Athanasius College of Engineering.
+              Organized by the Department of Civil Engineering, Mar Athanasius College of Engineering.
             </p>
             <p className="mt-4 text-sm text-foreground-muted text-gradient font-medium italic">
               "Shaping Resilient & Sustainable Infrastructure for Tomorrow"
@@ -22,13 +22,16 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-foreground font-semibold mb-4 tracking-wider text-sm uppercase">Quick Links</h4>
-            <ul className="space-y-2 text-sm text-foreground-muted">
-              <li><Link href="/" className="hover:text-primary transition-colors">Home</Link></li>
-              <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
-              <li><Link href="/call-for-papers" className="hover:text-primary transition-colors">Call for Papers</Link></li>
-              <li><Link href="/program-schedule" className="hover:text-primary transition-colors">Schedule</Link></li>
-            </ul>
+            <h4 className="text-foreground font-semibold mb-4 tracking-wider text-sm uppercase">Registration</h4>
+            <p className="text-sm text-foreground-muted mb-4">Secure your spot at MACE RISE '26 today.</p>
+            <Link 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd_-WsmnbvHWTZc7mr3kk-A8rOyoywgwUr3L-NgbvisxUwAKg/viewform?usp=publish-editor" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-xl hover:bg-primary-dark transition-all duration-200 shadow-sm hover:shadow-md"
+            >
+              Register Now
+            </Link>
           </div>
 
           <div>
@@ -36,7 +39,12 @@ export default function Footer() {
             <address className="not-italic text-sm text-foreground-muted space-y-2">
               <p>Mar Athanasius College of Engineering</p>
               <p>Kothamangalam, Kerala, India, 686666</p>
-              <p className="pt-2">Email: <a href="mailto:info@macerise26.com" className="hover:text-primary transition-colors">info@macerise26.com</a></p>
+              <div className="pt-2 space-y-1">
+                <p className="font-medium text-foreground">Prof. Basil Jaimon</p>
+                <p>Programme Coordinator</p>
+                <p>Ph. No: <a href="tel:9446067323" className="hover:text-primary transition-colors">9446067323</a></p>
+              </div>
+              <p className="pt-2">Email: <a href="mailto:ce.rise@mace.ac.in" className="hover:text-primary transition-colors">ce.rise@mace.ac.in</a></p>
             </address>
           </div>
 

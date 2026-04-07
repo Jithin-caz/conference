@@ -6,9 +6,9 @@ export default function ContactPage() {
         <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="max-w-2xl mx-auto">
         
-        <div className="glass-panel p-8 md:p-12 rounded-3xl h-full flex flex-col justify-center">
+        <div className="glass-panel p-8 md:p-12 rounded-3xl flex flex-col justify-center">
           <h2 className="text-2xl font-bold text-foreground mb-6">Get in Touch</h2>
           <p className="text-foreground-muted mb-8 text-sm leading-relaxed">
             Have questions about the conference, paper submission, or registration? 
@@ -40,8 +40,8 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-foreground font-semibold mb-1">Email Support</h3>
-                <a href="mailto:info@nce3mace.com" className="text-sm text-primary hover:text-primary-dark transition-colors">
-                  info@nce3mace.com
+                <a href="mailto:ce.rise@mace.ac.in" className="text-sm text-primary hover:text-primary-dark transition-colors">
+                  ce.rise@mace.ac.in
                 </a>
               </div>
             </div>
@@ -55,29 +55,15 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-foreground font-semibold mb-1">Phone Inquiry</h3>
                 <p className="text-sm text-foreground-muted">
-                  +91-XXXX-XXX-XXX<br/>
-                  Mon-Fri, 9am-5pm IST
+                  <strong className="text-foreground font-medium">Prof. Basil Jaimon</strong><br/>
+                  Programme Coordinator<br/>
+                  <a href="tel:9446067323" className="hover:text-primary transition-colors">9446067323</a>
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="glass-panel p-2 rounded-3xl overflow-hidden min-h-[400px]">
-          {/* Using a placeholder for Google Maps embed or similar visual */}
-          <div className="w-full h-full bg-surface border border-[rgba(0,0,0,0.05)] rounded-2xl flex items-center justify-center relative overflow-hidden group">
-            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
-            <div className="p-6 text-center relative z-10 transition-transform duration-500 group-hover:scale-105">
-              <div className="mb-4 inline-block w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary mx-auto ring-4 ring-[rgba(0,0,0,0.02)]">
-                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-                </svg>
-              </div>
-              <h3 className="text-foreground font-bold text-xl mb-2">Campus Map</h3>
-              <p className="text-foreground-muted text-sm max-w-[200px] mx-auto">Interactive map embed goes here.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

@@ -4,12 +4,10 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const newsItems = [
-  { id: 1, text: "Certificate and Proceeding Book Update – Soft copies will be emailed on Saturday (14 May 2026).", link: "#" },
-  { id: 2, text: "Program Schedule for offline and online Presentations is available now.", link: "/program-schedule" },
-  { id: 3, text: "PPT Submission Portal date extended to 8th May 2026.", link: "/registration" },
-  { id: 4, text: "Sample Abstract and Paper Template Now Available for Download.", link: "#" },
-];
-
+  { id: 1, text: "Abstract Submission is open now.", link: "/call-for-papers" },
+  { id: 2, text: "Programme Schedule for offline and online Presentations is available now.", link: "/program-schedule" },
+  { id: 3, text: "Abstract template and Paper template are available now for download.", link: "/call-for-papers" },
+]; 
 export default function NewsTicker() {
   const [currentIndex, setCurrentIndex] = useState(0);
 

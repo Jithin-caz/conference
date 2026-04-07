@@ -1,10 +1,10 @@
 export default function ImportantDatesPage() {
   const dates = [
-    { event: 'Start of Abstract Submission', date: 'April 5, 2026', past: false },
-    { event: 'Abstract Submission Deadline', date: 'April 5, 2026', past: false },
-    { event: 'Notification of Acceptance', date: 'May 5, 2026', past: false },
-    { event: 'Full Paper Submission Deadline', date: 'Optional (TBA)', past: false },
-    { event: 'Conference Dates', date: 'May 07 - 08, 2026', past: false },
+    { event: 'Start of Abstract Submission', date: 'April 6, 2026', past: false },
+    { event: 'Abstract Submission Deadline', date: 'April 20, 2026', past: false },
+    { event: 'Notification of Acceptance', date: 'April 23, 2026', past: false },
+    { event: 'Full paper Submission Deadline', date: 'May 1, 2026 (Optional)', past: false },
+    { event: 'Conference Dates', date: 'May 07 - 08, 2026 (Hybrid Mode)', past: false },
   ];
 
   return (
