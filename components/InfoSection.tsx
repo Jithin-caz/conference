@@ -38,7 +38,7 @@ export default function InfoSection({ title, content, imageUrl, images, imageOnR
                 <img 
                   src={imageUrl} 
                   alt={title} 
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="w-full h-full object-fill transition-transform duration-700 group-hover:scale-105"
                 />
               ) : (
                 <div className="w-full h-full bg-surface-light flex items-center justify-center">
