@@ -6,7 +6,7 @@ const speakers = [
     image: "/Dr. Ram VG.jpg.jpeg"
   },
   { 
-    name: "Yuvaraj Dhandapani", 
+    name: "Dr. Yuvaraj Dhandapani", 
     role: "Lecturer", 
     org: "Institute of Functional Surface, School of Mechanical Engineering, University of Leeds, UK",
     image: "/DR. YUVARAJ DHANDAPANI.jpg.jpeg"
@@ -18,13 +18,13 @@ const speakers = [
     image: "/Dr. AV Rahul.jpg.jpeg"
   },
   { 
-    name: "Deepak Kumar Kamde", 
+    name: "Dr. Deepak Kumar Kamde", 
     role: "Assistant Professor", 
     org: "Department of Civil Engineering, IIT Delhi",
     image: "/Deepak Kumar Kamde.jpg.jpeg"
   },
   { 
-    name: "Anusha S. Basavaraj", 
+    name: "Dr. Anusha S. Basavaraj", 
     role: "Assistant Professor", 
     org: "Department of Civil and Infrastructure Engineering, IIT Jodhpur",
     image: "/ANUSHA SHIMOGA BASAVARAJ.jpg.jpeg"

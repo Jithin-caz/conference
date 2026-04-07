@@ -75,7 +75,15 @@ export default function Home() {
 
       <InfoSection 
         title="About the Department"
-        imageUrl="/mace.jpg"
+        images={[
+          "/gallery/519A7714-scaled.jpg",
+          "/gallery/519A8511-scaled.jpg",
+          "/gallery/DSC05472-scaled.jpg",
+          "/gallery/DSC05554-scaled.jpg",
+          "/gallery/DSC05625-scaled.jpg",
+          "/gallery/DSC05721-scaled.jpg",
+          "/gallery/GT-scaled.jpg"
+        ]}
         imageOnRight={false}
         content={
           <>

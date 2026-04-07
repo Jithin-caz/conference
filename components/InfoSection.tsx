@@ -1,11 +1,14 @@
+import ImageCarousel from "./ImageCarousel";
+
 interface InfoProps {
   title: string;
   content: React.ReactNode;
   imageUrl?: string;
+  images?: string[];
   imageOnRight?: boolean;
 }
 
-export default function InfoSection({ title, content, imageUrl, imageOnRight = false }: InfoProps) {
+export default function InfoSection({ title, content, imageUrl, images, imageOnRight = false }: InfoProps) {
   return (
     <section className="py-24 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -28,7 +31,9 @@ export default function InfoSection({ title, content, imageUrl, imageOnRight = f
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-3xl blur-[40px] transform -rotate-6 scale-105"></div>
             
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden glass-panel group">
-              {imageUrl ? (
+              {images && images.length > 0 ? (
+                <ImageCarousel images={images} />
+              ) : imageUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img 
                   src={imageUrl} 
@@ -45,7 +50,9 @@ export default function InfoSection({ title, content, imageUrl, imageOnRight = f
                 </div>
               )}
               {/* Optional overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,9,19,0.8)] via-transparent to-transparent opacity-60"></div>
+              {(!images || images.length === 0) && (
+                <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,9,19,0.8)] via-transparent to-transparent opacity-60 pointer-events-none"></div>
+              )}
             </div>
           </div>
 

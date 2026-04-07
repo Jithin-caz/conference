@@ -10,7 +10,7 @@ export default function AboutPage() {
         
         <section>
           <h2 className="text-2xl font-bold text-foreground mb-4">About MACE RISE '26</h2>
-          <div className="text-foreground-muted leading-relaxed space-y-4">
+          <div className="text-foreground-muted leading-relaxed space-y-4 text-justify">
             <p>
               MACE RISE 2026 (Resilient Infrastructure and Sustainable Engineering) is an International Conference organized by the Department of Civil Engineering, Mar Athanasius College of Engineering, Kothamangalam, to be held on May 07 & 08, 2026 (Hybrid Mode). The conference aims to bring together academicians, researchers, industry professionals, and students from across the globe to share knowledge, innovations, and recent advancements across all domains of civil engineering. It provides a dynamic platform for exploring emerging trends, sustainable practices, and technological developments in infrastructure and the built environment.
             </p>
@@ -22,7 +22,7 @@ export default function AboutPage() {
 
         <section>
           <h2 className="text-2xl font-bold text-foreground mb-4">Mar Athanasius College of Engineering</h2>
-          <div className="text-foreground-muted leading-relaxed space-y-4">
+          <div className="text-foreground-muted leading-relaxed space-y-4 text-justify">
             <p>
               Mar Athanasius College of Engineering pioneered engineering education in central Kerala in 1961. Managed by Mar Athanasius College Association, Aided by the Government of Kerala, the college was the first engineering college in Asia under Christian management.
             </p>
@@ -34,7 +34,7 @@ export default function AboutPage() {
         
         <section>
           <h2 className="text-2xl font-bold text-foreground mb-4">Civil Engineering Department</h2>
-          <div className="text-foreground-muted leading-relaxed space-y-4">
+          <div className="text-foreground-muted leading-relaxed space-y-4 text-justify">
             <p>
               The Civil Engineering Department has a team of well-qualified teachers and technical staff who constantly strive to impart quality technical education in undergraduate and post-graduate programmes. The department offers an undergraduate programme in Civil Engineering and a post-graduate programme in Structural Engineering and Construction Management, and Computer Aided Structural Engineering. To support academic excellence, the department is equipped with state-of-the-art facilities, including a Research Centre, specialized laboratories such as CAD Lab, Concrete Research Lab, Environmental Engineering Lab, Geotechnical Engineering Lab, Masonry Lab, Structural Engineering Lab, and Surveying Lab, as well as a well-stocked department library.
             </p>
