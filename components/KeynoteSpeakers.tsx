@@ -1,54 +1,62 @@
 const speakers = [
   { 
-    name: "Dr. Madhavi Latha Gali", 
-    role: "Professor", 
-    org: "Indian Institute of Science Bangalore",
+    name: "Dr. Ram V G", 
+    role: "Assistant Professor", 
+    org: "Department of Civil Engineering, IIT Palakkad",
+    image: "/Dr. Ram VG.jpg.jpeg"
   },
   { 
-    name: "Speaker Two", 
-    role: "Designation", 
-    org: "Organization / University",
+    name: "Yuvaraj Dhandapani", 
+    role: "Lecturer", 
+    org: "Institute of Functional Surface, School of Mechanical Engineering, University of Leeds, UK",
+    image: "/DR. YUVARAJ DHANDAPANI.jpg.jpeg"
   },
   { 
-    name: "Speaker Three", 
-    role: "Designation", 
-    org: "Organization / University",
+    name: "Dr. A.V. Rahul", 
+    role: "Assistant Professor", 
+    org: "Civil & Environmental Engineering, IIT Tirupati",
+    image: "/Dr. AV Rahul.jpg.jpeg"
   },
   { 
-    name: "Speaker Four", 
-    role: "Designation", 
-    org: "Organization / University",
+    name: "Deepak Kumar Kamde", 
+    role: "Assistant Professor", 
+    org: "Department of Civil Engineering, IIT Delhi",
+    image: "/Deepak Kumar Kamde.jpg.jpeg"
   },
   { 
-    name: "Speaker Five", 
-    role: "Designation", 
-    org: "Organization / University",
+    name: "Anusha S. Basavaraj", 
+    role: "Assistant Professor", 
+    org: "Department of Civil and Infrastructure Engineering, IIT Jodhpur",
+    image: "/ANUSHA SHIMOGA BASAVARAJ.jpg.jpeg"
   }
 ];
 
 export default function KeynoteSpeakers() {
   return (
     <div className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl font-heading font-bold text-foreground mb-4">Keynote Speakers</h2>
+      <div className="text-center mb-16">
+        <h2 className="text-3xl lg:text-4xl font-heading font-bold text-foreground mb-4">Keynote Speakers</h2>
         <div className="w-16 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
-        <p className="mt-4 text-foreground-muted max-w-2xl mx-auto">Meet our distinguished keynote speakers who will be sharing their invaluable insights and latest research findings.</p>
+        <p className="mt-4 text-lg text-foreground-muted max-w-3xl mx-auto">Meet our distinguished keynote speakers who will be sharing their invaluable insights and latest research findings.</p>
       </div>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+      <div className="flex flex-wrap justify-center gap-8 max-w-6xl mx-auto">
         {speakers.map((speaker, index) => (
           <div 
             key={index} 
-            className="glass-panel p-6 rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-secondary/80"
+            className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] glass-panel p-8 rounded-3xl flex flex-col items-center text-center shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-[6px] border-secondary"
           >
-            <div className="w-24 h-24 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4 ring-4 ring-[rgba(0,0,0,0.02)] overflow-hidden shrink-0">
-              <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
+            <div className="w-40 h-40 rounded-full bg-surface border-4 border-white shadow-xl overflow-hidden shrink-0 mb-6 relative ring-4 ring-primary/20">
+              <img 
+                src={speaker.image} 
+                alt={speaker.name}
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
             </div>
-            <h3 className="text-lg font-bold text-foreground mb-1">{speaker.name}</h3>
-            <p className="text-xs font-semibold text-primary mb-2">{speaker.role}</p>
-            <p className="text-xs text-foreground-muted">{speaker.org}</p>
+            <h3 className="text-xl font-bold text-foreground mb-3 leading-snug">{speaker.name}</h3>
+            <p className="text-sm font-bold text-primary mb-3 uppercase tracking-wider">{speaker.role}</p>
+            <p className="text-sm text-foreground-muted leading-relaxed font-medium">{speaker.org}</p>
           </div>
         ))}
       </div>
