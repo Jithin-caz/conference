@@ -23,7 +23,7 @@ export default function Hero() {
         />
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-[rgba(0,0,0,0.1)] mb-8 animate-fade-in-up shadow-sm" style={{ animationDelay: '0.1s' }}>
           <span className="flex h-2 w-2 rounded-full bg-secondary"></span>
-          <span className="text-sm tracking-wide text-slate-800 font-semibold drop-shadow-sm">07 - 08 May 2026 (Hybrid Mode) &bull; Kothamangalam, Kerala</span>
+          <span className="text-sm tracking-wide text-slate-800 font-semibold drop-shadow-sm">07 - 08 May 2026 (Hybrid Mode) &bull;MACE Kothamangalam, Kerala</span>
         </div>
 
         <h1 className="text-5xl md:text-7xl font-heading font-extrabold text-slate-900 tracking-tight mb-6 leading-tight [text-shadow:0_0_30px_rgb(255_255_255/100%),0_0_10px_rgb(255_255_255/80%)]">
