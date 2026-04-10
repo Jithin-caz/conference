@@ -15,8 +15,18 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://macerise.in"),
   title: "MACE RISE '26 | Conference on Resilient Infrastructure & Sustainable Engineering",
-  description: "Shaping Resilient & Sustainable Infrastructure for Tomorrow. Organized by the Department of Civil Engineering, Mar Athanasius College of Engineering.",
+  description:
+    "Shaping Resilient & Sustainable Infrastructure for Tomorrow. Organized by the Department of Civil Engineering, Mar Athanasius College of Engineering.",
+  openGraph: {
+    title: "MACE RISE '26",
+    description:
+      "Shaping Resilient & Sustainable Infrastructure for Tomorrow.",
+    url: "https://macerise.in",
+    siteName: "MACE RISE 2026",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
