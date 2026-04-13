@@ -50,7 +50,7 @@ export default function Navbar() {
             })}
             <div className="ml-4 pl-4 border-l border-[rgba(0,0,0,0.1)]">
               <Link
-                href="https://docs.google.com/forms/d/e/1FAIpQLSd_-WsmnbvHWTZc7mr3kk-A8rOyoywgwUr3L-NgbvisxUwAKg/viewform?usp=publish-editor"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdoHoXHR0_e9yIXGOWdDI_V63EGEp72DNhWzZ_9-YSuczknnw/viewform?usp=preview"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-semibold text-white bg-primary hover:bg-primary-dark transition-all duration-200 hover:scale-105 hover:shadow-[0_0_20px_rgba(14,165,233,0.4)]"
@@ -104,7 +104,7 @@ export default function Navbar() {
               );
             })}
             <Link
-              href="https://docs.google.com/forms/d/e/1FAIpQLSd_-WsmnbvHWTZc7mr3kk-A8rOyoywgwUr3L-NgbvisxUwAKg/viewform?usp=publish-editor"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdoHoXHR0_e9yIXGOWdDI_V63EGEp72DNhWzZ_9-YSuczknnw/viewform?usp=preview"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}

@@ -48,7 +48,7 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd_-WsmnbvHWTZc7mr3kk-A8rOyoywgwUr3L-NgbvisxUwAKg/viewform?usp=publish-editor"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdoHoXHR0_e9yIXGOWdDI_V63EGEp72DNhWzZ_9-YSuczknnw/viewform?usp=preview"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-4 text-lg font-bold rounded-full text-white bg-gradient-to-r from-primary to-primary-dark shadow-[0_4px_20px_rgba(28,64,78,0.3)] hover:shadow-[0_8px_30px_rgba(28,64,78,0.5)] transition-all duration-300 hover:-translate-y-1"

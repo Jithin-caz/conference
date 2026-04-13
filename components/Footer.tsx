@@ -25,7 +25,7 @@ export default function Footer() {
             <h4 className="text-foreground font-semibold mb-4 tracking-wider text-sm uppercase">Registration</h4>
             <p className="text-sm text-foreground-muted mb-4">Secure your spot at MACE RISE '26 today.</p>
             <Link 
-              href="https://docs.google.com/forms/d/e/1FAIpQLSd_-WsmnbvHWTZc7mr3kk-A8rOyoywgwUr3L-NgbvisxUwAKg/viewform?usp=publish-editor" 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdoHoXHR0_e9yIXGOWdDI_V63EGEp72DNhWzZ_9-YSuczknnw/viewform?usp=preview" 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-xl hover:bg-primary-dark transition-all duration-200 shadow-sm hover:shadow-md"

@@ -57,9 +57,9 @@ export default function CallForPapersPage() {
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                 Download Abstract Template
               </a>
-              <a href="#" className="w-full inline-flex items-center justify-center px-4 py-3 border-2 border-[rgba(0,0,0,0.05)] text-foreground-muted font-semibold rounded-xl hover:bg-surface transition-colors cursor-not-allowed">
+              <a href="/paper_format.docx" download className="w-full inline-flex items-center justify-center px-4 py-3 border-2 border-secondary text-secondary font-semibold rounded-xl hover:bg-secondary hover:text-white transition-colors">
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-                Paper Template (Coming Soon)
+                Download Paper Template
               </a>
             </div>
           </div>
@@ -112,7 +112,7 @@ export default function CallForPapersPage() {
           <h3 className="text-2xl font-bold text-foreground mb-4">Ready to Join Us?</h3>
           <p className="mb-6 max-w-2xl mx-auto">Registration will open shortly. Prepare your abstracts using the template and secure your place at this year's conference to be part of the future of sustainable engineering.</p>
           <Link 
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd_-WsmnbvHWTZc7mr3kk-A8rOyoywgwUr3L-NgbvisxUwAKg/viewform?usp=publish-editor" 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdoHoXHR0_e9yIXGOWdDI_V63EGEp72DNhWzZ_9-YSuczknnw/viewform?usp=preview" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-full text-white bg-gradient-to-r from-primary to-primary-dark shadow-[0_4px_15px_rgba(28,64,78,0.3)] hover:shadow-[0_8px_25px_rgba(28,64,78,0.4)] transition-all hover:-translate-y-1">
