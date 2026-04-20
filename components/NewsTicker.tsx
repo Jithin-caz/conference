@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const newsItems = [
-  { id: 1, text: "Abstract Submission is open now.", link: "/call-for-papers" },
+  { id: 1, text: "Abstract Submission date is extended till 25/04/2026.", link: "/call-for-papers" },
   { id: 3, text: "Abstract template and Paper template are available now for download.", link: "/call-for-papers" },
 ]; 
 export default function NewsTicker() {
