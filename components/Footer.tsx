@@ -39,16 +39,17 @@ export default function Footer() {
             <address className="not-italic text-sm text-foreground-muted space-y-2">
               <p>Mar Athanasius College of Engineering</p>
               <p>Kothamangalam, Kerala, India, 686666</p>
+             <div className="pt-2 space-y-1">
+                <p className="font-medium text-foreground">Dr. Alka Abraham</p>
+                <p>Programme Coordinator</p>
+                <p>Ph. No: <a href="tel:9446067323" className="hover:text-primary transition-colors">99468 04776</a></p>
+              </div>
               <div className="pt-2 space-y-1">
                 <p className="font-medium text-foreground">Prof. Basil Jaimon</p>
                 <p>Programme Coordinator</p>
                 <p>Ph. No: <a href="tel:9446067323" className="hover:text-primary transition-colors">9446067323</a></p>
               </div>
-              <div className="pt-2 space-y-1">
-                <p className="font-medium text-foreground">Prof. Alka Abraham</p>
-                <p>Programme Coordinator</p>
-                <p>Ph. No: <a href="tel:9446067323" className="hover:text-primary transition-colors">99468 04776</a></p>
-              </div>
+              
               <p className="pt-2">Email: <a href="mailto:ce.rise@mace.ac.in" className="hover:text-primary transition-colors">ce.rise@mace.ac.in</a></p>
             </address>
           </div>

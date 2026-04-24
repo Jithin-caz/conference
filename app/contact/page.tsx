@@ -55,15 +55,16 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-foreground font-semibold mb-1">Phone Inquiry</h3>
                 <p className="text-sm text-foreground-muted">
+                  <strong className="text-foreground font-medium">Dr. Alka Abraham </strong><br/>
+                  Programme Coordinator<br/>
+                  <a href="tel:9446067323" className="hover:text-primary transition-colors">99468 04776</a>
+                </p>
+                <p className="text-sm text-foreground-muted">
                   <strong className="text-foreground font-medium">Prof. Basil Jaimon</strong><br/>
                   Programme Coordinator<br/>
                   <a href="tel:9446067323" className="hover:text-primary transition-colors">9446067323</a>
                 </p>
-                <p className="text-sm text-foreground-muted">
-                  <strong className="text-foreground font-medium">Prof. Alka Abraham </strong><br/>
-                  Programme Coordinator<br/>
-                  <a href="tel:9446067323" className="hover:text-primary transition-colors">99468 04776</a>
-                </p>
+                
 
               </div>
             </div>
