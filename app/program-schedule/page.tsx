@@ -11,30 +11,23 @@ export default function ProgramSchedulePage() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
         </svg>
         <h2 className="text-2xl font-bold text-foreground">Conference Itinerary</h2>
-        {/* <p className="text-lg pb-2">
+        <p className="text-lg pb-2">
           The programme schedule for both offline and online presentations is now available. Let's explore the tracks and sessions planned for the robust three-day event.
-        </p> */}
-        <div className="bg-primary/10 border border-primary/20 text-primary p-4 rounded-xl mt-4 mb-8 inline-block shadow-sm">
-          <p className="font-semibold">The final schedule will be published by May 1, 2026.</p>
+        </p>
+        
+        <div className="mt-8">
+          <a
+            href="/schedule.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-8 py-3 border border-transparent rounded-full shadow-sm text-base font-semibold text-white bg-primary hover:bg-primary-dark transition-all duration-200 hover:scale-105 hover:shadow-[0_0_20px_rgba(14,165,233,0.4)]"
+          >
+            <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            Download Schedule PDF
+          </a>
         </div>
-
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-          <div className="p-6 bg-[rgba(0,0,0,0.02)] rounded-xl border border-[rgba(0,0,0,0.05)] hover:bg-[rgba(0,0,0,0.05)] transition duration-300">
-            <h3 className="text-xl font-bold text-foreground mb-2">Offline Presentations</h3>
-            <p className="text-sm mb-4">Venue: Main Auditorium</p>
-            <button className="px-6 py-2 bg-surface text-primary border border-primary/50 hover:bg-primary hover:text-white rounded-full transition duration-300 text-sm font-semibold">
-              View Schedule PDF
-            </button>
-          </div>
-          
-          <div className="p-6 bg-[rgba(0,0,0,0.02)] rounded-xl border border-[rgba(0,0,0,0.05)] hover:bg-[rgba(0,0,0,0.05)] transition duration-300">
-            <h3 className="text-xl font-bold text-foreground mb-2">Online Presentations</h3>
-            <p className="text-sm mb-4">Venue: Virtual Room A & B</p>
-            <button className="px-6 py-2 bg-surface text-primary border border-primary/50 hover:bg-primary hover:text-white rounded-full transition duration-300 text-sm font-semibold">
-              Get Meeting Links
-            </button>
-          </div>
-        </div> */}
 
       </div>
     </div>

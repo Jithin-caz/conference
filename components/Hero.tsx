@@ -61,6 +61,14 @@ export default function Hero() {
           >
             Call for Papers
           </Link>
+          <Link
+            href="/schedule.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto px-8 py-4 text-lg font-bold rounded-full text-primary glass hover:bg-[rgba(255,255,255,0.9)] transition-all duration-300 hover:-translate-y-1 shadow-sm"
+          >
+            Event Schedule
+          </Link>
         </div>
 
         {/* Status Indicators */}

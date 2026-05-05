@@ -6,6 +6,7 @@ import Link from 'next/link';
 const newsItems = [
   { id: 1, text: "Abstract Submission date is extended till 25/04/2026.", link: "/call-for-papers" },
   { id: 3, text: "Abstract template and Paper template are available now for download.", link: "/call-for-papers" },
+  { id: 4, text: "Conference Schedule is now available for download.", link: "/schedule.pdf" },
 ]; 
 export default function NewsTicker() {
   const [currentIndex, setCurrentIndex] = useState(0);
